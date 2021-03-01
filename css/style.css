@@ -15,12 +15,22 @@
   text-align: center;
 }
 
+.ta-right{
+  text-align: right;
+}
+
 h3{
   font-size: 35px;
+  font-weight: bold;
 }
 
 h2{
   font-size: 45px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 25px;
 }
 
 .my-btn{
@@ -33,6 +43,12 @@ h2{
 
 /* HEADER */
 /* Nav */
+.title h4{
+  margin: 0;
+  line-height: 50px;
+  font-weight: bold;
+
+}
 
 .nav-container{
   background-color: #2C3E50;
@@ -42,18 +58,19 @@ h2{
 
 .menu{
   list-style-type: none;
+  margin-bottom: 0px;
 }
 
 .menu li{
   display: inline-block;
-  vertical-align: middle;
+  line-height: 50px;
   margin-left: 20px;
 }
 
 .nav-container a{
   text-decoration: none;
   color: white;
-  font-size: 27px;
+  font-size: 18px;
 }
 
 /* Banner */
@@ -62,8 +79,9 @@ h2{
   padding: 40px 0 30px 0;
 }
 
-.banner h1{
+ h1{
   font-size: 60px;
+  font-weight: bold;
 }
 
 .banner img{
@@ -91,6 +109,28 @@ h2{
 .about .my-btn{
   margin-top: 30px;
 }
+
+/* Contact me */
+
+.info-client label{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.info-client input{
+  border: none;
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+.info-client input:focus{
+  border-bottom: 1px solid black;
+}
+#msg{
+  padding-top: 100px;
+}
 /* FINE MAIN */
 
 /* FOOTER */
@@ -102,6 +142,14 @@ footer{
 .footer-top{
   background-color: #3A546D;
   padding: 30px 0;
+}
+
+h5{
+  font-size: 20px;
+}
+
+.footer-top span{
+  color: #1ABC9C;
 }
 
 .footer-bottom{
