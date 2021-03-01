@@ -61,7 +61,7 @@ h4{
   margin-bottom: 0px;
 }
 
-.menu li{
+.nav-container .menu li{
   display: inline-block;
   line-height: 50px;
   margin-left: 20px;
@@ -71,6 +71,11 @@ h4{
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+
+.burger a{
+  line-height: 50px;
+  font-size: 20px;
 }
 
 /* Banner */
@@ -146,6 +151,30 @@ footer{
 
 h5{
   font-size: 20px;
+}
+
+.social-links{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-links li{
+  border: 1px solid white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li a{
+  color: white;
+  font-size: 22px;
+}
+
+.social-links li:last-child{
+  margin-right: 0;
 }
 
 .footer-top span{
