@@ -1,0 +1,44 @@
+/* HEADER */
+/* Nav */
+.nav-container{
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px 0;
+}
+
+.menu{
+  list-style-type: none;
+}
+
+.menu li{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.nav-container a{
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+}
+
+/* Banner */
+.primary-container{
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.banner{
+  text-align: center;
+  padding: 40px 0 30px 0;
+
+}
+
+.banner h1{
+  font-size: 60px;
+}
+
+.banner img{
+  width: 300px;
+}
+/* FINE HEADER */
