@@ -20,7 +20,7 @@ h3{
 }
 
 h2{
-  font-size: 50px;
+  font-size: 45px;
 }
 /* FINE COMMON */
 
@@ -73,6 +73,20 @@ h2{
   height: 200px;
   border: 1px solid white;
 }
-
-
 /* FINE MAIN */
+
+/* FOOTER */
+footer{
+  color: white;
+}
+
+.footer-top{
+  background-color: #3A546D;
+  padding: 30px 0;
+}
+
+.footer-bottom{
+  padding: 30px 0 20px 0;
+  background-color: #2C3E50;
+}
+/* FINE FOOTER */
