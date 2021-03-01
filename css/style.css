@@ -68,7 +68,7 @@ h4{
   display: inline-block;
   height: 4px;
   vertical-align: text-top;
-  width: 20%;
+  width: 10%;
 }
 
 .star:before {
@@ -248,3 +248,39 @@ h5{
   background-color: #2C3E50;
 }
 /* FINE FOOTER */
+
+
+/* SEZIONE RESPONSIVE */
+
+@media all and (max-width: 767px){
+
+  /* Common */
+  .my-btn{
+    padding: 15px 35px;
+    font-size: 25px;
+  }
+  
+  /* About */
+  .about .description p{
+    font-size: 180%;
+    width: 60%;
+    margin: 0 auto;
+
+  }
+
+  .about .my-btn{
+    margin-top: 60px;
+  }
+
+
+  /* Contact me */
+  .contact-me{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Footer top */
+  .info-bottom{
+    margin-bottom: 50px;
+  }
+}
