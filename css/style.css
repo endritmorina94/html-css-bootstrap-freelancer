@@ -38,6 +38,58 @@ h4{
   border: 1px solid white;
   color: white;
 }
+
+.star span{
+  background: #fff;
+  padding:0 10px
+}
+
+.primary-container .star:before,
+.primary-container .star:after {
+  background-color: white;
+}
+
+.secondary-container .star:before,
+.secondary-container .star:after {
+  background-color: #2C3E50;
+}
+
+.secondary-container .star i{
+  color: white;
+}
+
+.secondary-container .star i{
+  color: #2C3E50;
+}
+
+.star:before,
+.star:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  vertical-align: text-top;
+  width: 20%;
+}
+
+.star:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.star:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.star{
+  padding: 20px 0 15px;
+  margin-bottom: 0;
+}
+
+.star i{
+  font-size: 40px;
+  padding: 0 40px;
+}
 /* FINE COMMON */
 
 
@@ -78,6 +130,16 @@ h4{
   font-size: 20px;
 }
 
+a:hover,
+.footer-top li:hover,
+.footer-top li:hover a{
+  color: #1ABC9C;
+  cursor: pointer;
+}
+
+.footer-top li:hover{
+  border: 1px solid #1ABC9C;
+}
 /* Banner */
 
 .banner{
