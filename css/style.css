@@ -3,20 +3,13 @@
 .primary-container{
   background-color: #1ABC9C;
   color: white;
+  padding: 40px 0;
 }
 
 .secondary-container{
   background-color: white;
   color: black;
   padding: 40px 0 60px 0;
-}
-
-.ta-center{
-  text-align: center;
-}
-
-.ta-right{
-  text-align: right;
 }
 
 h3{
@@ -37,6 +30,11 @@ h4{
   background-color: #1ABC9C;
   border: 1px solid white;
   color: white;
+}
+
+.my-btn:hover{
+  color: #2C3E50;
+  border: 1px solid #2C3E50;
 }
 
 .star span{
@@ -72,12 +70,12 @@ h4{
 }
 
 .star:before {
-  right: 0.5em;
+  right: 5px;
   margin-left: -50%;
 }
 
 .star:after {
-  left: 0.5em;
+  left: 5px;
   margin-right: -50%;
 }
 
@@ -88,7 +86,13 @@ h4{
 
 .star i{
   font-size: 40px;
-  padding: 0 40px;
+  padding: 0 30px;
+}
+
+.container.about>*,
+.container.contact>*{
+  width: 90%;
+  margin: 0 auto;
 }
 /* FINE COMMON */
 
@@ -128,6 +132,14 @@ h4{
 .burger a{
   line-height: 50px;
   font-size: 20px;
+  color: grey;
+  padding: 5px 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.burger a:hover{
+  border: 1px solid #1ABC9C;
 }
 
 a:hover,
@@ -140,13 +152,9 @@ a:hover,
 .footer-top li:hover{
   border: 1px solid #1ABC9C;
 }
+
 /* Banner */
-
-.banner{
-  padding: 40px 0 30px 0;
-}
-
- h1{
+h1{
   font-size: 60px;
   font-weight: bold;
 }
@@ -158,7 +166,6 @@ a:hover,
 
 /* MAIN */
 /* Portfolio */
-
 .works>*{
   padding-top: 30px
 }
@@ -169,8 +176,8 @@ a:hover,
 }
 
 /* About */
-.about{
-  padding: 40px 0;
+.about p{
+  font-size: 20px;
 }
 
 .about .my-btn{
@@ -178,7 +185,6 @@ a:hover,
 }
 
 /* Contact me */
-
 .info-client label{
   font-size: 20px;
   font-weight: normal;
@@ -195,6 +201,7 @@ a:hover,
 .info-client input:focus{
   border-bottom: 1px solid black;
 }
+
 #msg{
   padding-top: 100px;
 }
@@ -211,8 +218,12 @@ footer{
   padding: 30px 0;
 }
 
-h5{
+footer h4{
   font-size: 20px;
+}
+
+h5{
+  font-size: 16px;
 }
 
 .social-links{
@@ -222,17 +233,17 @@ h5{
 
 .social-links li{
   border: 1px solid white;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-  line-height: 60px;
+  line-height: 40px;
   display: inline-block;
   margin-right: 10px;
 }
 
 .social-links li a{
   color: white;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .social-links li:last-child{
@@ -260,27 +271,32 @@ h5{
     font-size: 20px;
   }
 
-  /* Nav */
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 37px;
+  }
+
   h4{
     font-size: 20px;
   }
 
+  .about .description,
+  .container.contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
   /* About */
-  .about .description p{
-    font-size: 160%;
-    width: 60%;
-    margin: 0 auto 40px;
+  .about .description{
+    margin-bottom: 40px;
   }
 
   .about .my-btn{
     margin-top: 20px;
-  }
-
-
-  /* Contact me */
-  .contact-me{
-    width: 60%;
-    margin: 0 auto;
   }
 
   /* Footer top */
