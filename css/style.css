@@ -77,7 +77,7 @@ h4{
 }
 
 .star{
-  padding: 20px 0 15px;
+  padding: 20px 0;
   margin-bottom: 0;
 }
 
@@ -300,7 +300,6 @@ h5{
 
 
 /* SEZIONE RESPONSIVE */
-
 @media all and (max-width: 767px){
 
   /* Common */
@@ -327,7 +326,6 @@ h5{
     margin: 0 auto;
   }
 
-
   /* Portfolio */
   .works > *:nth-child(1n+2){
     padding-top: 30px
@@ -338,8 +336,12 @@ h5{
     margin-bottom: 40px;
   }
 
+  .description p{
+    margin-bottom: 40px;
+  }
+
   .about .my-btn{
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   /* Footer top */
