@@ -1,12 +1,11 @@
 /* COMMON */
-
-.primary-container{
+.primary-section{
   background-color: #1ABC9C;
   color: white;
   padding: 40px 0;
 }
 
-.secondary-container{
+.secondary-section{
   background-color: white;
   color: black;
   padding: 40px 0 60px 0;
@@ -42,21 +41,21 @@ h4{
   padding:0 10px
 }
 
-.primary-container .star:before,
-.primary-container .star:after {
+.primary-section .star:before,
+.primary-section .star:after {
   background-color: white;
 }
 
-.secondary-container .star:before,
-.secondary-container .star:after {
+.secondary-section .star:before,
+.secondary-section .star:after {
   background-color: #2C3E50;
 }
 
-.secondary-container .star i{
+.secondary-section .star i{
   color: white;
 }
 
-.secondary-container .star i{
+.secondary-section .star i{
   color: #2C3E50;
 }
 
@@ -89,11 +88,13 @@ h4{
   padding: 0 30px;
 }
 
-.container.about>*,
-.container.contact>*{
+.container .about>*,
+.container .contact>*{
   width: 90%;
   margin: 0 auto;
 }
+
+
 /* FINE COMMON */
 
 
@@ -166,7 +167,7 @@ h1{
 
 /* MAIN */
 /* Portfolio */
-.works>*{
+.works > *:nth-child(1n+4){
   padding-top: 30px
 }
 
@@ -185,25 +186,29 @@ h1{
 }
 
 /* Contact me */
-.info-client label{
-  font-size: 20px;
+.my-form label{
+  font-size: 17px;
   font-weight: normal;
 }
 
-.info-client input{
+.my-form input,
+.my-form textarea{
   border: none;
   width: 100%;
   outline: none;
   border-bottom: 1px solid lightgrey;
-  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  box-shadow: none;
 }
 
-.info-client input:focus{
+.my-form input:focus,
+.my-form textarea:focus{
   border-bottom: 1px solid black;
 }
 
-#msg{
-  padding-top: 100px;
+.my-form textarea:focus{
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 /* FINE MAIN */
 
@@ -283,12 +288,17 @@ h5{
     font-size: 20px;
   }
 
-  .about .description,
-  .container.contact{
+  .container .about,
+  .container .contact{
     width: 70%;
     margin: 0 auto;
   }
 
+
+  /* Portfolio */
+  .works > *:nth-child(1n+2){
+    padding-top: 30px
+  }
 
   /* About */
   .about .description{
