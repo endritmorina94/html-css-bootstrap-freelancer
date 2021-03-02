@@ -151,7 +151,7 @@ a:hover{
   color: #1ABC9C;
 }
 /* Banner */
-.primary-section:first-of-type{
+.primary-section.first{
   padding-top: 120px;
 }
 
