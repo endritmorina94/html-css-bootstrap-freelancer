@@ -146,6 +146,7 @@ h4{
 .burger a:hover{
   color: #2C3E50;
 }
+
 a:hover{
   cursor: pointer;
   color: #1ABC9C;
@@ -283,8 +284,13 @@ h5{
   margin-right: 0;
 }
 
-.footer-top span{
+.info-bottom a{
   color: #1ABC9C;
+}
+
+.info-bottom a:hover{
+  color: #17816c;
+  text-decoration: none;
 }
 
 .footer-bottom{
