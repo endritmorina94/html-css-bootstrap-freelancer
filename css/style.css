@@ -29,17 +29,6 @@ h4{
   font-size: 25px;
 }
 
-.my-btn{
-  background-color: #1ABC9C;
-  border: 1px solid white;
-  color: white;
-}
-
-.my-btn:hover{
-  color: #2C3E50;
-  border: 1px solid #2C3E50;
-}
-
 .star span{
   background: #fff;
   padding:0 10px
@@ -61,6 +50,11 @@ h4{
 
 .secondary-section .star i{
   color: #2C3E50;
+}
+
+.my-btn{
+  background-color: #1ABC9C;
+  border: 1px solid white;
 }
 
 .star:before,
@@ -145,20 +139,17 @@ h4{
 }
 
 .burger a:hover{
-  border: 1px solid #1ABC9C;
+  background-color: white;
+  color: #2C3E50;
 }
 
-a:hover,
-.footer-top li:hover,
-.footer-top li:hover a{
-  color: #1ABC9C;
+.burger a:hover{
+  color: #2C3E50;
+}
+a:hover{
   cursor: pointer;
+  color: #1ABC9C;
 }
-
-.footer-top li:hover{
-  border: 1px solid #1ABC9C;
-}
-
 /* Banner */
 .primary-section:first-of-type{
   padding-top: 120px;
@@ -194,7 +185,19 @@ h1{
   margin-top: 30px;
 }
 
+.about .my-btn:hover{
+  background-color: white;
+}
+
 /* Contact me */
+.contact .my-btn:hover{
+  background-color: #17816c;
+}
+
+.contact .my-btn{
+  color: white;
+}
+
 .my-form label{
   font-size: 17px;
   font-weight: normal;
@@ -209,15 +212,27 @@ h1{
   font-size: 20px;
   background-color: transparent;
   box-shadow: none;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.my-form input::placeholder,
+.my-form textarea::placeholder{
+  color: rgba(44, 62, 80, 0.7);
+}
+
+.my-form input:focus::placeholder,
+.my-form textarea:focus::placeholder{
+  color: #2C3E50;
 }
 
 .my-form input:focus,
 .my-form textarea:focus{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #2C3E50;
 }
 
 .my-form textarea:focus{
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px rgba(44, 62, 80, 0.5);
 }
 /* FINE MAIN */
 
@@ -258,6 +273,15 @@ h5{
 .social-links li a{
   color: white;
   font-size: 16px;
+}
+
+.social-links li:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.social-links li:hover a{
+  color: #3A546D;
 }
 
 .social-links li:last-child{
