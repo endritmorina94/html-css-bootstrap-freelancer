@@ -218,17 +218,12 @@ h1{
 
 .my-form input::placeholder,
 .my-form textarea::placeholder{
-  color: rgba(44, 62, 80, 0.7);
+  color: rgba(44, 62, 80, 0.8);
 }
 
 .my-form input:focus::placeholder,
 .my-form textarea:focus::placeholder{
   color: #2C3E50;
-}
-
-.my-form input:focus,
-.my-form textarea:focus{
-  border-bottom: 1px solid #2C3E50;
 }
 
 .my-form textarea:focus{
