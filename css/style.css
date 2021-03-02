@@ -1,4 +1,8 @@
 /* COMMON */
+html{
+  scroll-behavior: smooth;
+}
+
 .primary-section{
   background-color: #1ABC9C;
   color: white;
@@ -93,8 +97,6 @@ h4{
   width: 90%;
   margin: 0 auto;
 }
-
-
 /* FINE COMMON */
 
 
@@ -111,6 +113,9 @@ h4{
   background-color: #2C3E50;
   color: white;
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .menu{
@@ -155,6 +160,10 @@ a:hover,
 }
 
 /* Banner */
+.primary-section:first-of-type{
+  padding-top: 120px;
+}
+
 h1{
   font-size: 60px;
   font-weight: bold;
