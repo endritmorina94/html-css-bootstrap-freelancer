@@ -6,13 +6,13 @@ html{
 .primary-section{
   background-color: #1ABC9C;
   color: white;
-  padding: 40px 0;
+  padding: 40px 0 60px;
 }
 
 .secondary-section{
   background-color: white;
   color: black;
-  padding: 40px 0 60px 0;
+  padding: 40px 0 60px;
 }
 
 h3{
@@ -100,7 +100,6 @@ h4{
   margin: 0;
   line-height: 50px;
   font-weight: bold;
-
 }
 
 .nav-container{
@@ -152,7 +151,7 @@ a:hover{
   color: #1ABC9C;
 }
 /* Banner */
-.primary-section.first{
+header .primary-section{
   padding-top: 120px;
 }
 
