@@ -29,32 +29,19 @@ h4{
   font-size: 25px;
 }
 
-.star span{
-  background: #fff;
-  padding:0 10px
-}
-
-.primary-section .star:before,
-.primary-section .star:after {
-  background-color: white;
-}
-
-.secondary-section .star:before,
-.secondary-section .star:after {
-  background-color: #2C3E50;
-}
-
-.secondary-section .star i{
-  color: white;
-}
-
-.secondary-section .star i{
-  color: #2C3E50;
-}
-
 .my-btn{
   background-color: #1ABC9C;
   border: 1px solid white;
+}
+
+.star{
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.star i{
+  font-size: 40px;
+  padding: 0 30px;
 }
 
 .star:before,
@@ -76,14 +63,22 @@ h4{
   margin-right: -50%;
 }
 
-.star{
-  padding: 20px 0;
-  margin-bottom: 0;
+.primary-section .star:before,
+.primary-section .star:after {
+  background-color: white;
 }
 
-.star i{
-  font-size: 40px;
-  padding: 0 30px;
+.secondary-section .star:before,
+.secondary-section .star:after {
+  background-color: #2C3E50;
+}
+
+.secondary-section .star i{
+  color: white;
+}
+
+.secondary-section .star i{
+  color: #2C3E50;
 }
 
 .container .about>*,
@@ -163,7 +158,8 @@ h1{
 }
 
 .banner img{
-  width: 300px;
+  width: 30%;
+  min-width: 250px;
 }
 /* FINE HEADER */
 
